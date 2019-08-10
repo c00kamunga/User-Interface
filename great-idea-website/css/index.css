@@ -66,10 +66,42 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 
 *{
-	max-width: 100%;
+	max-width: 90%;
 }
 
 body{
 	width:100%;
 	margin: 0 auto;
 }
+
+header{
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.headerNav{
+	display: inline-block;
+	margin-top: 20px;
+	margin-bottom: 50px;
+	vertical-align: middle;
+	padding-right: 7px;
+}
+
+.logo{
+	display: inline-block;
+}
+
+h1{
+	display: inline-block;
+	font-size: 60px;
+}
+
+
+
+
+
+
+
+
+
+
