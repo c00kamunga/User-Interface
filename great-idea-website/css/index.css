@@ -70,17 +70,22 @@ h1, h2, h3, h4, h5 {
 }
 
 body{
-	width: 95%;
+	background: white;
+	width: 1000px;
 	margin: 0 auto;
 }
 
 header{
-	text-align: center;
-	margin-bottom: 30px;
+	background-color: white;
+	position: fixed;
+	width: 100%;
+	display: inline-block;
 }
 
 header a{
-	padding-left: 100px;
+	padding-left: 50px;
+	display: inline-block;
+	font-family: "Lobster";
 }
 
 .headerNav{
@@ -89,46 +94,74 @@ header a{
 	margin-bottom: 50px;
 	vertical-align: middle;
 	padding-right: 7px;
+	
 }
+
+.logo{
+	padding-left: 3rem;
+}
+
 
 .innovation-circle{
-	border: 3px solid purple;
+	width: 100%;
+	padding: 0 15rem;
+	display: inline-block;
+	margin-top: 6rem;
 }
 
 
-
-
-.innovation{
+.innovation-circle div{
 	display: inline-block;
-	padding-left: 30rem;
+	width: 49%;
+	vertical-align: middle;
 }
 
 .innovation h1{
 	font-size: 4rem;
 }
 
+.innovation{
+	text-align: center;
+}
+
+
+
 .top-image{
 	display: inline-block;
+
 }
 
 
 
 .main-content{
-	border: 3px solid green;
+	border-top: 3px solid black;
+	border-bottom: 3px solid black;
 }
 
 
-.top-main {
-	border: 3px solid blue;
+.top-main{
 	display: inline-block;
-	width: 29rem;
-	padding-top: 5rem;
+	width: 100%;
+	margin: 0 auto;
+	padding: 2rem;
 }
 
-.bottom-main{
-	border: 3px solid red;
+.top-main div{
 	display: inline-block;
-	width: 18rem;
+	max-width: 49%;
+	box-sizing: border-box;
+	margin: 2rem auto;
+}
+
+.middle-img{
+	width: 100%;
+}
+
+.bottom-main div{
+	display: inline-block;
+	max-width: 30%;
+	box-sizing: border-box;
+	margin: 2rem auto;
 }
 
 
