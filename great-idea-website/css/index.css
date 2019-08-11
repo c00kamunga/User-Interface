@@ -70,7 +70,7 @@ h1, h2, h3, h4, h5 {
 }
 
 body{
-	width:100%;
+	width: 95%;
 	margin: 0 auto;
 }
 
@@ -91,6 +91,13 @@ header a{
 	padding-right: 7px;
 }
 
+.innovation-circle{
+	border: 3px solid purple;
+}
+
+
+
+
 .innovation{
 	display: inline-block;
 	padding-left: 30rem;
@@ -106,10 +113,35 @@ header a{
 
 
 
+.main-content{
+	border: 3px solid green;
+}
+
+
+.top-main {
+	border: 3px solid blue;
+	display: inline-block;
+	width: 29rem;
+	padding-top: 5rem;
+}
+
+.bottom-main{
+	border: 3px solid red;
+	display: inline-block;
+	width: 18rem;
+}
 
 
 
 
 
+footer{
+	padding-top: 5rem;
+}
+
+.copyright{
+	text-align: center;
+	padding-top: 5rem;
+}
 
 
